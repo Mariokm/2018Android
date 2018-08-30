@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_uno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hola a todos los estudiantes de ITESCA"
+        android:background="@color/colorRojoClaro"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"        />
+    <TextView
+        android:id="@+id/tv_dos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hola de nuevo Mundo Android!"
+        android:background="@color/colorAzul"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_uno"
+        android:paddingBottom="10dp"
+        />
+    <TextView
+        android:id="@+id/tv_tres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texto centrado!"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorVerde"
+        android:layout_below="@id/tv_dos"
+        />
+
+</RelativeLayout>
