@@ -6,5 +6,6 @@
     <color name="colorRojo">#FF0000</color>
     <color name="colorVerde">#00FF00</color>
     <color name="colorAzul">#0000FF</color>
+    <color name="colorRojoClarito">#FFF0F0</color>
     <color name="colorRojoClaro">#FF8080</color>
 </resources>

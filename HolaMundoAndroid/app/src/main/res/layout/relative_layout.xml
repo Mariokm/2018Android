@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorAccent"
+    android:background="@color/colorRojoClarito"
     tools:context=".MainActivity">
 
     <TextView
@@ -13,19 +13,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Hola a todos los estudiantes de ITESCA"
-        android:background="@color/colorRojoClaro"
+
         android:layout_alignParentLeft="true"
-        android:layout_marginBottom="10dp"        />
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"/>
+
     <TextView
         android:id="@+id/tv_dos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hola de nuevo Mundo Android!"
-        android:background="@color/colorAzul"
-        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
         android:layout_below="@id/tv_uno"
+
         android:paddingBottom="10dp"
-        />
+        android:paddingTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Hola de nuevo Mundo Android!" />
     <TextView
         android:id="@+id/tv_tres"
         android:layout_width="wrap_content"
@@ -35,5 +38,14 @@
         android:background="@color/colorVerde"
         android:layout_below="@id/tv_dos"
         />
+    <ImageView
+        android:id="@+id/iv_halcon"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv_tres"
+        android:paddingTop="20dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/articles_60051_imagen_0"/>
 
 </RelativeLayout>
