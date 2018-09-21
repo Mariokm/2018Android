@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CicloVida</string>
+    <string-array name="roberto_gomez">
+        <item>Chavo del ocho</item>
+        <item>Chapulin</item>
+        <item>Chompiras</item>
+        <item>Chapatin</item>
+        <item>Chaparron Bonaparte</item>
+        <item>Chicharra</item>
+        <item>Chanfle</item>
+        <item>Charro</item>
+        <item>ch1</item>
+        <item>ch2</item>
+        <item>ch3</item>
+    </string-array>
+    <string name="title_activity_formulario">Formulario</string>
+</resources>

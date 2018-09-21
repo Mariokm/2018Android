@@ -32,9 +32,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void funcionTres(View v){
-        Context context = getApplicationContext();
         CharSequence text = "Presionaste boton 2";
         int duration = Snackbar.LENGTH_LONG;
-        Snackbar.make(v,text,)
+        Snackbar.make(v,text,duration).show();
     }
 }
